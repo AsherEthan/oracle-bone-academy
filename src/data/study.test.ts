@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto'
 import { readFileSync } from 'node:fs'
 import { createElement } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import { Glyph } from '../components/Glyph'
 import { glyphs, sourcedGlyphs } from './glyphs'
 import { canDisplaySource } from './provenance'
@@ -80,8 +80,22 @@ describe('source eligibility and asset integrity, not scholarly authentication',
     const html = renderToStaticMarkup(createElement(Glyph, { entry: sourcedGlyphs[0] }))
     expect(html).toContain('<img')
     expect(html).toContain('非原拓')
+    expect(html).toContain(`src="${import.meta.env.BASE_URL}${sourcedGlyphs[0].source!.image.slice(1)}"`)
     expect(html).not.toContain('<path')
     expect(html).not.toContain('<svg')
+  })
+  it('prefixes verified image URLs with the project deployment path without changing source identity', () => {
+    const entry = sourcedGlyphs[0]
+    const source = entry.source!
+    vi.stubEnv('BASE_URL', '/oracle-bone-academy/')
+    try {
+      const html = renderToStaticMarkup(createElement(Glyph, { entry }))
+      expect(html).toContain(`src="/oracle-bone-academy/${source.image.slice(1)}"`)
+      expect(canDisplaySource(source)).toBe(true)
+      expect(source.image).toMatch(/^\/glyph-sources\//)
+    } finally {
+      vi.unstubAllEnvs()
+    }
   })
   it('does not expose the withdrawn feature modules from the active app', () => {
     const app = readFileSync(new URL('../App.tsx', import.meta.url), 'utf8')

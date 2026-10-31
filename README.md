@@ -120,7 +120,7 @@ node scripts/import-sinica-corpus.mjs "<项目根目录>" "<项目根目录>/res
 ## 本批验证
 
 - `npm run build` 通过。Vite 仍提示单个字库 bundle 超过 500 kB：构建统计约 2.33 MB、gzip 后约 401 kB；这不是构建失败，也尚未做字库按需分包。
-- `npm test`：24 项通过，包含全部已导入来源 PNG 的字节、哈希、页面编号、图片接口和标签对应检查，以及目录原标签与本站检索别名分离、范围覆盖和未完成批次不得导入的检查。新批次 2,585 条已计入完整验证。
+- `npm test`：25 项通过，包含全部已导入来源 PNG 的字节、哈希、页面编号、图片接口和标签对应检查，以及部署子路径下的图片地址、目录原标签与本站检索别名分离、范围覆盖和未完成批次不得导入的检查。新批次 2,585 条已计入完整验证。
 - `npm run test:e2e`：桌面与手机共 26 项通过，覆盖分页末页、搜索、无标签条目、字例切换、旧收藏与新收藏，以及无定义式标题、无古字旁拼音、材料归属和引辞边界；新增 3500 号字头的原图、著录、来源链接及收藏持久化均验证通过。
 - 对 `public/glyph-sources/` 的 5,212 个 PNG 文件作像素检查，没有全空白图片；其中水的一例有两个分辨率文件，所以不同来源编号的字例数为 5,211，不把重复分辨率计为新增字例。
 - 实际运行生产预览，桌面与手机分别操作首页、末页、无标签字形、收藏、刷新和来源详情；页面无脚本错误，正常浏览无外部网络请求。已检查桌面首页及手机详情截图，截图保存在本地 `artifacts/corpus-production-*`，不随仓库上传。
@@ -143,7 +143,22 @@ GitHub 版本的 `research/**/*.html` 是属性摘录，不是原始整页快照
 node scripts/export-github.mjs "<项目根目录>" "<新的空发布目录>"
 ```
 
-发布不等于网站已经部署到公网；此处未配置 GitHub Pages 或其他托管服务。
+### GitHub Pages
+
+访问地址：https://asherethan.github.io/oracle-bone-academy/
+
+`.github/workflows/pages.yml` 在 `main` 分支更新后自动安装依赖、运行数据与图片完整性测试、构建并发布 `dist/`，也支持手动触发。只发布构建产物，不把研究目录作为网站静态资源发布。使用固定提交的官方 Actions，部署权限仅赋予发布任务。
+
+Vite 默认使用根路径 `/`，本地启动方式不变；工作流将 `VITE_BASE_PATH` 设为 `/oracle-bone-academy/`。字例图片的显示地址跟随这个前缀，但来源记录路径、编号与哈希不变；字体采用相对引用。可在本地复核项目子路径构建：
+
+```bash
+VITE_BASE_PATH=/oracle-bone-academy/ npm run build
+VITE_BASE_PATH=/oracle-bone-academy/ npm run preview
+node scripts/smoke-corpus.mjs "<项目根目录>" http://127.0.0.1:4173/oracle-bone-academy
+```
+
+以上环境变量写法适用于 Bash。在 Windows Git Bash 中，构建和预览命令前另加 `MSYS2_ENV_CONV_EXCL=VITE_BASE_PATH`，避免将 URL 前缀转换成 Windows 文件路径；GitHub Actions 的 Linux 环境不需要该设置。站点发布进度可在仓库 Actions 的 `Deploy GitHub Pages` 工作流查看。收藏仍保存在各自浏览器中；本地预览与线上站点的收藏不会互相同步。
+
 
 ## 更正与旧资料
 

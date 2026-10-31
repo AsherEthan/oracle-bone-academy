@@ -55,7 +55,7 @@ async function copy(path) {
   files++
 }
 for (const path of [
-  '.gitignore', 'README.md', 'THIRD_PARTY.md', 'index.html', 'package.json', 'package-lock.json',
+  '.gitignore', '.github', 'README.md', 'THIRD_PARTY.md', 'index.html', 'package.json', 'package-lock.json',
   'tsconfig.json', 'vite.config.ts', 'vitest.config.ts', 'playwright.config.ts', 'src',
   'public/favicon.svg', 'public/fonts', 'public/glyph-sources/sinica-20261031',
   'public/glyph-sources/sinica-corpus-20261031', 'scripts', 'tests',

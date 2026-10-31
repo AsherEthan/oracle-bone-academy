@@ -13,5 +13,5 @@ export function Glyph({ entry, className = '', decorative = false }: {
   if (!source || source.image === failedImage) {
     return <span className={`glyph-unavailable ${className}`} aria-label={`${label}：${source ? '来源图片暂不可用' : '甲骨字形待核对'}`}><span aria-hidden="true">{source ? '图片暂不可用' : '字形待核对'}</span></span>
   }
-  return <img className={`source-glyph ${className}`} src={source.image} alt={decorative ? '' : `${label}：小學堂${source.sourceCode}，${source.record}字库图，非原拓`} aria-hidden={decorative || undefined} draggable={false} loading="lazy" decoding="async" onError={() => setFailedImage(source.image)} />
+  return <img className={`source-glyph ${className}`} src={`${import.meta.env.BASE_URL}${source.image.slice(1)}`} alt={decorative ? '' : `${label}：小學堂${source.sourceCode}，${source.record}字库图，非原拓`} aria-hidden={decorative || undefined} draggable={false} loading="lazy" decoding="async" onError={() => setFailedImage(source.image)} />
 }

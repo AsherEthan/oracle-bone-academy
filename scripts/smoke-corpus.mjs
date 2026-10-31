@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto'
 import { resolve } from 'node:path'
 
 const root = resolve(process.argv[2] ?? '.')
-const baseURL = process.argv[3] ?? 'http://127.0.0.1:4173'
+const baseURL = (process.argv[3] ?? 'http://127.0.0.1:4173').replace(/\/+$/, '') + '/'
 if (!(await fetch(baseURL)).ok) throw new Error('Production preview is not serving')
 const output = `${root}/artifacts`
 const corpus = JSON.parse(await readFile(`${root}/src/data/corpus.json`, 'utf8'))
@@ -19,7 +19,10 @@ try {
   for (const mode of ['desktop', 'mobile']) {
     const context = await browser.newContext(mode === 'mobile' ? { ...devices['iPhone 13'] } : { viewport: { width: 1440, height: 1000 } })
     const page = await context.newPage()
-    const errors = [], external = []
+    const errors = [], external = [], failedResponses = []
+    page.on('response', response => {
+      if (response.status() >= 400) failedResponses.push(`${response.status()} ${response.url()}`)
+    })
     page.on('pageerror', error => errors.push(error.message))
     page.on('request', request => {
       if (new URL(request.url()).origin !== new URL(baseURL).origin) external.push(request.url())
@@ -68,15 +71,15 @@ try {
     await page.screenshot({ path: `${output}/materials-production-reference-${mode}.png`, animations: 'disabled' })
     await dialog.locator('.detail-sources > summary').click()
     await expect(dialog.getByRole('link', { name: '查看字例页', exact: true })).toHaveAttribute('href', 'https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E7BE')
-    if (errors.length || external.length) throw new Error(JSON.stringify({ mode, errors, external }))
-    console.log(JSON.stringify({ mode, initialRenderMilliseconds: firstPaint, cardsPerPage: 48, headwords, unlabelled, lastHeadword, pageErrors: errors.length, externalRequests: external.length }))
+    if (errors.length || external.length || failedResponses.length) throw new Error(JSON.stringify({ mode, errors, external, failedResponses }))
+    console.log(JSON.stringify({ mode, initialRenderMilliseconds: firstPaint, cardsPerPage: 48, headwords, unlabelled, lastHeadword, pageErrors: errors.length, externalRequests: external.length, failedResponses: failedResponses.length }))
     await context.close()
   }
   const samples = [corpus.records[0], corpus.records[20], corpus.records.at(-1)]
   for (const record of samples) {
     const example = record.examples[0]
     const path = `/glyph-sources/sinica-corpus-20261031/glyph-${example.code.toLowerCase().replace('.', '-')}/image.png`
-    const response = await fetch(baseURL + path)
+    const response = await fetch(new URL(path.slice(1), baseURL))
     if (!response.ok) throw new Error(`Missing served asset ${path}`)
     const hash = createHash('sha256').update(Buffer.from(await response.arrayBuffer())).digest('hex')
     if (hash !== example.sha256) throw new Error(`Served image hash mismatch ${example.code}`)
