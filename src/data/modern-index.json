@@ -1,0 +1,722 @@
+[
+  {
+    "category": "nature",
+    "char": "日",
+    "pinyin": "rì",
+    "english": "Sun"
+  },
+  {
+    "category": "nature",
+    "char": "月",
+    "pinyin": "yuè",
+    "english": "Moon"
+  },
+  {
+    "category": "nature",
+    "char": "山",
+    "pinyin": "shān",
+    "english": "Mountain"
+  },
+  {
+    "category": "nature",
+    "char": "水",
+    "pinyin": "shuǐ",
+    "english": "Water"
+  },
+  {
+    "category": "nature",
+    "char": "火",
+    "pinyin": "huǒ",
+    "english": "Fire"
+  },
+  {
+    "category": "nature",
+    "char": "雨",
+    "pinyin": "yǔ",
+    "english": "Rain"
+  },
+  {
+    "category": "nature",
+    "char": "云",
+    "pinyin": "yún",
+    "english": "Cloud"
+  },
+  {
+    "category": "nature",
+    "char": "川",
+    "pinyin": "chuān",
+    "english": "River"
+  },
+  {
+    "category": "nature",
+    "char": "土",
+    "pinyin": "tǔ",
+    "english": "Earth"
+  },
+  {
+    "category": "nature",
+    "char": "石",
+    "pinyin": "shí",
+    "english": "Stone"
+  },
+  {
+    "category": "nature",
+    "char": "夕",
+    "pinyin": "xī",
+    "english": "Evening"
+  },
+  {
+    "category": "nature",
+    "char": "气",
+    "pinyin": "qì",
+    "english": "Vapor"
+  },
+  {
+    "category": "plants",
+    "char": "木",
+    "pinyin": "mù",
+    "english": "Tree"
+  },
+  {
+    "category": "plants",
+    "char": "林",
+    "pinyin": "lín",
+    "english": "Grove"
+  },
+  {
+    "category": "plants",
+    "char": "森",
+    "pinyin": "sēn",
+    "english": "Forest"
+  },
+  {
+    "category": "plants",
+    "char": "禾",
+    "pinyin": "hé",
+    "english": "Grain"
+  },
+  {
+    "category": "plants",
+    "char": "米",
+    "pinyin": "mǐ",
+    "english": "Grain seeds"
+  },
+  {
+    "category": "plants",
+    "char": "麦",
+    "pinyin": "mài",
+    "english": "Wheat"
+  },
+  {
+    "category": "plants",
+    "char": "果",
+    "pinyin": "guǒ",
+    "english": "Fruit"
+  },
+  {
+    "category": "plants",
+    "char": "竹",
+    "pinyin": "zhú",
+    "english": "Bamboo"
+  },
+  {
+    "category": "animals",
+    "char": "鸟",
+    "pinyin": "niǎo",
+    "english": "Bird"
+  },
+  {
+    "category": "animals",
+    "char": "鱼",
+    "pinyin": "yú",
+    "english": "Fish"
+  },
+  {
+    "category": "animals",
+    "char": "马",
+    "pinyin": "mǎ",
+    "english": "Horse"
+  },
+  {
+    "category": "animals",
+    "char": "鹿",
+    "pinyin": "lù",
+    "english": "Deer"
+  },
+  {
+    "category": "animals",
+    "char": "牛",
+    "pinyin": "niú",
+    "english": "Ox"
+  },
+  {
+    "category": "animals",
+    "char": "羊",
+    "pinyin": "yáng",
+    "english": "Sheep"
+  },
+  {
+    "category": "animals",
+    "char": "犬",
+    "pinyin": "quǎn",
+    "english": "Dog"
+  },
+  {
+    "category": "animals",
+    "char": "豕",
+    "pinyin": "shǐ",
+    "english": "Pig"
+  },
+  {
+    "category": "animals",
+    "char": "虎",
+    "pinyin": "hǔ",
+    "english": "Tiger"
+  },
+  {
+    "category": "animals",
+    "char": "象",
+    "pinyin": "xiàng",
+    "english": "Elephant"
+  },
+  {
+    "category": "animals",
+    "char": "龟",
+    "pinyin": "guī",
+    "english": "Turtle"
+  },
+  {
+    "category": "animals",
+    "char": "虫",
+    "pinyin": "chóng",
+    "english": "Serpent"
+  },
+  {
+    "category": "human",
+    "char": "人",
+    "pinyin": "rén",
+    "english": "Person"
+  },
+  {
+    "category": "human",
+    "char": "大",
+    "pinyin": "dà",
+    "english": "Great"
+  },
+  {
+    "category": "human",
+    "char": "女",
+    "pinyin": "nǚ",
+    "english": "Woman"
+  },
+  {
+    "category": "human",
+    "char": "母",
+    "pinyin": "mǔ",
+    "english": "Mother"
+  },
+  {
+    "category": "human",
+    "char": "子",
+    "pinyin": "zǐ",
+    "english": "Child"
+  },
+  {
+    "category": "human",
+    "char": "好",
+    "pinyin": "hǎo",
+    "english": "Good"
+  },
+  {
+    "category": "human",
+    "char": "目",
+    "pinyin": "mù",
+    "english": "Eye"
+  },
+  {
+    "category": "human",
+    "char": "耳",
+    "pinyin": "ěr",
+    "english": "Ear"
+  },
+  {
+    "category": "human",
+    "char": "口",
+    "pinyin": "kǒu",
+    "english": "Mouth"
+  },
+  {
+    "category": "human",
+    "char": "齿",
+    "pinyin": "chǐ",
+    "english": "Teeth"
+  },
+  {
+    "category": "human",
+    "char": "手",
+    "pinyin": "shǒu",
+    "english": "Hand"
+  },
+  {
+    "category": "human",
+    "char": "又",
+    "pinyin": "yòu",
+    "english": "Right hand"
+  },
+  {
+    "category": "human",
+    "char": "足",
+    "pinyin": "zú",
+    "english": "Foot and leg"
+  },
+  {
+    "category": "human",
+    "char": "止",
+    "pinyin": "zhǐ",
+    "english": "Footprint"
+  },
+  {
+    "category": "human",
+    "char": "心",
+    "pinyin": "xīn",
+    "english": "Heart"
+  },
+  {
+    "category": "human",
+    "char": "身",
+    "pinyin": "shēn",
+    "english": "Body"
+  },
+  {
+    "category": "objects",
+    "char": "田",
+    "pinyin": "tián",
+    "english": "Field"
+  },
+  {
+    "category": "objects",
+    "char": "井",
+    "pinyin": "jǐng",
+    "english": "Well"
+  },
+  {
+    "category": "objects",
+    "char": "门",
+    "pinyin": "mén",
+    "english": "Gate"
+  },
+  {
+    "category": "objects",
+    "char": "户",
+    "pinyin": "hù",
+    "english": "Door"
+  },
+  {
+    "category": "objects",
+    "char": "网",
+    "pinyin": "wǎng",
+    "english": "Net"
+  },
+  {
+    "category": "objects",
+    "char": "舟",
+    "pinyin": "zhōu",
+    "english": "Boat"
+  },
+  {
+    "category": "objects",
+    "char": "车",
+    "pinyin": "chē",
+    "english": "Chariot"
+  },
+  {
+    "category": "objects",
+    "char": "弓",
+    "pinyin": "gōng",
+    "english": "Bow"
+  },
+  {
+    "category": "objects",
+    "char": "矢",
+    "pinyin": "shǐ",
+    "english": "Arrow"
+  },
+  {
+    "category": "objects",
+    "char": "戈",
+    "pinyin": "gē",
+    "english": "Dagger-axe"
+  },
+  {
+    "category": "objects",
+    "char": "鼎",
+    "pinyin": "dǐng",
+    "english": "Tripod vessel"
+  },
+  {
+    "category": "objects",
+    "char": "册",
+    "pinyin": "cè",
+    "english": "Bound slips"
+  },
+  {
+    "category": "direction",
+    "char": "一",
+    "pinyin": "yī",
+    "english": "One"
+  },
+  {
+    "category": "direction",
+    "char": "二",
+    "pinyin": "èr",
+    "english": "Two"
+  },
+  {
+    "category": "direction",
+    "char": "三",
+    "pinyin": "sān",
+    "english": "Three"
+  },
+  {
+    "category": "direction",
+    "char": "十",
+    "pinyin": "shí",
+    "english": "Ten"
+  },
+  {
+    "category": "direction",
+    "char": "上",
+    "pinyin": "shàng",
+    "english": "Above"
+  },
+  {
+    "category": "direction",
+    "char": "下",
+    "pinyin": "xià",
+    "english": "Below"
+  },
+  {
+    "category": "direction",
+    "char": "来",
+    "pinyin": "lái",
+    "english": "Come / wheat"
+  },
+  {
+    "category": "direction",
+    "char": "去",
+    "pinyin": "qù",
+    "english": "Go"
+  },
+  {
+    "category": "direction",
+    "char": "立",
+    "pinyin": "lì",
+    "english": "Stand"
+  },
+  {
+    "category": "direction",
+    "char": "从",
+    "pinyin": "cóng",
+    "english": "Follow"
+  },
+  {
+    "category": "direction",
+    "char": "北",
+    "pinyin": "běi",
+    "english": "Back to back"
+  },
+  {
+    "category": "direction",
+    "char": "众",
+    "pinyin": "zhòng",
+    "english": "Many people"
+  },
+  {
+    "category": "nature",
+    "char": "星",
+    "pinyin": "xīng",
+    "english": "Stars"
+  },
+  {
+    "category": "nature",
+    "char": "雷",
+    "pinyin": "léi",
+    "english": "Thunder"
+  },
+  {
+    "category": "nature",
+    "char": "电",
+    "pinyin": "diàn",
+    "english": "Lightning"
+  },
+  {
+    "category": "nature",
+    "char": "风",
+    "pinyin": "fēng",
+    "english": "Wind"
+  },
+  {
+    "category": "nature",
+    "char": "冰",
+    "pinyin": "bīng",
+    "english": "Ice"
+  },
+  {
+    "category": "nature",
+    "char": "泉",
+    "pinyin": "quán",
+    "english": "Spring"
+  },
+  {
+    "category": "plants",
+    "char": "本",
+    "pinyin": "běn",
+    "english": "Root"
+  },
+  {
+    "category": "plants",
+    "char": "末",
+    "pinyin": "mò",
+    "english": "Tip"
+  },
+  {
+    "category": "plants",
+    "char": "未",
+    "pinyin": "wèi",
+    "english": "Not yet"
+  },
+  {
+    "category": "plants",
+    "char": "朱",
+    "pinyin": "zhū",
+    "english": "Vermilion"
+  },
+  {
+    "category": "plants",
+    "char": "生",
+    "pinyin": "shēng",
+    "english": "Grow"
+  },
+  {
+    "category": "plants",
+    "char": "屮",
+    "pinyin": "chè",
+    "english": "Sprout"
+  },
+  {
+    "category": "plants",
+    "char": "艸",
+    "pinyin": "cǎo",
+    "english": "Grasses"
+  },
+  {
+    "category": "plants",
+    "char": "桑",
+    "pinyin": "sāng",
+    "english": "Mulberry"
+  },
+  {
+    "category": "animals",
+    "char": "兔",
+    "pinyin": "tù",
+    "english": "Rabbit"
+  },
+  {
+    "category": "animals",
+    "char": "隹",
+    "pinyin": "zhuī",
+    "english": "Bird form"
+  },
+  {
+    "category": "animals",
+    "char": "羽",
+    "pinyin": "yǔ",
+    "english": "Feathers"
+  },
+  {
+    "category": "animals",
+    "char": "尾",
+    "pinyin": "wěi",
+    "english": "Tail"
+  },
+  {
+    "category": "animals",
+    "char": "鸣",
+    "pinyin": "míng",
+    "english": "Bird call"
+  },
+  {
+    "category": "animals",
+    "char": "凤",
+    "pinyin": "fèng",
+    "english": "Phoenix"
+  },
+  {
+    "category": "human",
+    "char": "见",
+    "pinyin": "jiàn",
+    "english": "See"
+  },
+  {
+    "category": "human",
+    "char": "眉",
+    "pinyin": "méi",
+    "english": "Eyebrow"
+  },
+  {
+    "category": "human",
+    "char": "面",
+    "pinyin": "miàn",
+    "english": "Face"
+  },
+  {
+    "category": "human",
+    "char": "首",
+    "pinyin": "shǒu",
+    "english": "Head"
+  },
+  {
+    "category": "human",
+    "char": "自",
+    "pinyin": "zì",
+    "english": "Nose / self"
+  },
+  {
+    "category": "human",
+    "char": "舌",
+    "pinyin": "shé",
+    "english": "Tongue"
+  },
+  {
+    "category": "human",
+    "char": "爪",
+    "pinyin": "zhǎo",
+    "english": "Claw / hand"
+  },
+  {
+    "category": "human",
+    "char": "友",
+    "pinyin": "yǒu",
+    "english": "Companion"
+  },
+  {
+    "category": "human",
+    "char": "及",
+    "pinyin": "jí",
+    "english": "Reach"
+  },
+  {
+    "category": "human",
+    "char": "休",
+    "pinyin": "xiū",
+    "english": "Rest"
+  },
+  {
+    "category": "human",
+    "char": "伐",
+    "pinyin": "fá",
+    "english": "Strike"
+  },
+  {
+    "category": "human",
+    "char": "牧",
+    "pinyin": "mù",
+    "english": "Herd"
+  },
+  {
+    "category": "human",
+    "char": "保",
+    "pinyin": "bǎo",
+    "english": "Protect"
+  },
+  {
+    "category": "objects",
+    "char": "刀",
+    "pinyin": "dāo",
+    "english": "Knife"
+  },
+  {
+    "category": "objects",
+    "char": "力",
+    "pinyin": "lì",
+    "english": "Effort"
+  },
+  {
+    "category": "objects",
+    "char": "斤",
+    "pinyin": "jīn",
+    "english": "Axe"
+  },
+  {
+    "category": "objects",
+    "char": "酉",
+    "pinyin": "yǒu",
+    "english": "Wine vessel"
+  },
+  {
+    "category": "objects",
+    "char": "皿",
+    "pinyin": "mǐn",
+    "english": "Vessel"
+  },
+  {
+    "category": "objects",
+    "char": "臼",
+    "pinyin": "jiù",
+    "english": "Mortar"
+  },
+  {
+    "category": "objects",
+    "char": "斗",
+    "pinyin": "dǒu",
+    "english": "Dipper"
+  },
+  {
+    "category": "objects",
+    "char": "卜",
+    "pinyin": "bǔ",
+    "english": "Divination"
+  },
+  {
+    "category": "direction",
+    "char": "出",
+    "pinyin": "chū",
+    "english": "Go out"
+  },
+  {
+    "category": "direction",
+    "char": "入",
+    "pinyin": "rù",
+    "english": "Enter"
+  },
+  {
+    "category": "direction",
+    "char": "步",
+    "pinyin": "bù",
+    "english": "Step"
+  },
+  {
+    "category": "direction",
+    "char": "行",
+    "pinyin": "xíng",
+    "english": "Crossroads"
+  },
+  {
+    "category": "direction",
+    "char": "东",
+    "pinyin": "dōng",
+    "english": "East"
+  },
+  {
+    "category": "direction",
+    "char": "西",
+    "pinyin": "xī",
+    "english": "West"
+  },
+  {
+    "category": "direction",
+    "char": "南",
+    "pinyin": "nán",
+    "english": "South"
+  }
+]

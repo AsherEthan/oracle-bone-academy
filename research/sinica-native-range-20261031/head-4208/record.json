@@ -1,0 +1,15 @@
+{
+  "order": 4208,
+  "code": "45.EAE9",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4208",
+  "labels": [
+    "室"
+  ],
+  "reference": "明藏391",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%AB%A9&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.EAE9",
+  "sha256": "79883d09a617776deb3b16fa4a2bcedb2ffbfcaff167b919e94be7b5e6bb792a",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4208"
+}

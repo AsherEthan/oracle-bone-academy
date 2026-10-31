@@ -1,0 +1,15 @@
+{
+  "order": 5023,
+  "code": "45.F0F4",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5023",
+  "labels": [
+    "它"
+  ],
+  "reference": "鐵185.3 合4813",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%83%B4&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F0F4",
+  "sha256": "5177ba9df721996c8b689a96e5fb54d62f42b5e8a8a8da2b42f7ac679442dcd5",
+  "exampleCount": 11,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5023"
+}

@@ -1,0 +1,15 @@
+{
+  "order": 5030,
+  "code": "45.F109",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5030",
+  "labels": [
+    "用"
+  ],
+  "reference": "前4.16.6 合3256",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%84%89&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F109",
+  "sha256": "d58051d7842d22e8eb469314297f881f186d1b3456fb19eeed67c8ef0a960e83",
+  "exampleCount": 4,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5030"
+}

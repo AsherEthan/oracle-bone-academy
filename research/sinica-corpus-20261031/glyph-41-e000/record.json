@@ -1,0 +1,13 @@
+{
+  "order": 1,
+  "code": "41.E000",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?kaiOrder=1&ZiOrder=1",
+  "labels": [
+    "一"
+  ],
+  "reference": "鐵148.1",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%80%80&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.E000",
+  "sha256": "458c69a7262fca44a92b63b347c4bd91e0bb7f4811fa5899bf24f085b878890f",
+  "checkedAt": "2026-10-31"
+}

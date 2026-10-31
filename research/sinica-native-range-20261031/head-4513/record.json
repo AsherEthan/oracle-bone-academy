@@ -1,0 +1,15 @@
+{
+  "order": 4513,
+  "code": "45.ED48",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4513",
+  "labels": [
+    "吹"
+  ],
+  "reference": "佚939 合20301",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B5%88&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.ED48",
+  "sha256": "f32b9f3504175f4ed44b04229e1eaeac8d63013e06213a7beee58bcc01343c36",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4513"
+}

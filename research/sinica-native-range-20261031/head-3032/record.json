@@ -1,0 +1,15 @@
+{
+  "order": 3032,
+  "code": "45.E064",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=3032",
+  "labels": [
+    "祼"
+  ],
+  "reference": "簠文64 合15834",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%81%A4&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.E064",
+  "sha256": "973ecfbc2c79e5dcda251f398ec6ced120efb2e46d8bfeddac652e393b1ea708",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-3032"
+}

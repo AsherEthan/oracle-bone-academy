@@ -1,0 +1,13 @@
+{
+  "order": 256,
+  "code": "41.EB28",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?kaiOrder=1162&ZiOrder=256",
+  "labels": [
+    "品"
+  ],
+  "reference": "甲241<br />合20276",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%AC%A8&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.EB28",
+  "sha256": "012ff59d490e4035076d35a064ee619f2c0965383cc0a28e16a064d416219f4e",
+  "checkedAt": "2026-10-31"
+}

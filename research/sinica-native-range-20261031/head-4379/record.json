@@ -1,0 +1,15 @@
+{
+  "order": 4379,
+  "code": "45.EC4F",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4379",
+  "labels": [
+    "瞽"
+  ],
+  "reference": "林1.28.10 合16041",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B1%8F&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.EC4F",
+  "sha256": "6b9eb3b1f7418e393755bb2c851a0d13932d1e97f357bb8df4a71ce803a0e323",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4379"
+}

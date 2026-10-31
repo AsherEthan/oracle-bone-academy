@@ -1,0 +1,14 @@
+{
+  "order": 710,
+  "code": "42.EA18",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=710",
+  "labels": [
+    "韋"
+  ],
+  "reference": "甲350 合3859",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%A8%98&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.EA18",
+  "sha256": "58042de077bd135aa82323e470c6caefd76c12a099f5e88d7cf95f5149fc25bd",
+  "checkedAt": "2026-10-31",
+  "folder": "head-710"
+}

@@ -1,0 +1,15 @@
+{
+  "order": 4230,
+  "code": "45.EB01",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4230",
+  "labels": [
+    "禾"
+  ],
+  "reference": "戩34.5 合31681",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%AC%81&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.EB01",
+  "sha256": "c177c9dccb2d7bbee6771300854f81602b1f2b10e9cba9d51204476e15d7cd04",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4230"
+}

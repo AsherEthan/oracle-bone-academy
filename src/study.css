@@ -1,0 +1,170 @@
+.modal-close-anchor { position: sticky; top: 0; width: 100%; height: 0; z-index: 5; pointer-events: none; }
+.modal-close-anchor > .modal-close { pointer-events: auto; }
+.explore-rooms { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 18px; }
+.explore-room { display: flex; align-items: center; gap: 19px; text-align: left; padding: 22px; background: #f0f2e9; border: 1px solid #e1e5d7; border-radius: 4px; min-width: 0; }
+.explore-room:hover { background: #e9eddf; border-color: #b9c6a5; transform: translateY(-2px); }
+.explore-room > svg { margin-left: auto; color: #8a9679; }
+.room-glyphs { display: flex; flex-shrink: 0; width: 105px; height: 52px; gap: 3px; color: #7c8c67; }
+.room-glyphs .oracle-glyph { width: 33px; }
+.room-copy { min-width: 0; }
+.room-copy .eyebrow { font-size: 6px; letter-spacing: 1.6px; }
+.room-copy strong { display: block; font-family: var(--serif); font-size: 15px; font-weight: 500; margin: 7px 0 8px; line-height: 1.6; }
+.room-copy small { display: block; font-size: 9px; line-height: 1.8; color: #7d886e; }
+.tracing-room { background: #f1eee6; border-color: #e6e0d3; }
+.tracing-room:hover { background: #ece6d9; border-color: #cfc1a8; }
+.room-pen { flex-shrink: 0; width: 58px; color: #a08a66; display: flex; justify-content: center; }
+.explore-rooms + .gallery-section { margin-top: 33px; }
+.sidebar .sidebar-divider { margin-top: 20px; margin-bottom: 20px; }
+.sidebar-bottom { padding-top: 28px; }
+.sidebar-quote { margin-bottom: 23px; }
+.detail-source-links { display: flex; flex-wrap: wrap; gap: 0 20px; }
+.detail-study-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 19px; }
+.detail-study-actions button { display: flex; align-items: center; justify-content: center; gap: 7px; font-size: 11px; padding: 10px 6px; border: 1px solid #dfe4d4; border-radius: 3px; background: #f0f2e8; color: #6d8057; }
+.detail-study-actions button:last-child { color: #927653; background: #f2eee4; border-color: #e4dccb; }
+.detail-study-actions button:hover { border-color: #a5b58e; background: #e5ebd9; }
+.detail-study-actions button:last-child:hover { border-color: #c1a57d; background: #ece3d2; }
+.related-glyphs { display: flex; align-items: center; gap: 8px; margin-top: 17px; flex-wrap: wrap; }
+.related-glyphs > span { color: #859276; font-size: 10px; margin-right: 3px; }
+.related-glyphs button { display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 17px; width: 31px; height: 33px; background: #f0f2e7; border: 1px solid #e0e5d4; border-radius: 3px; color: #758766; }
+.related-glyphs button:hover { color: var(--vermillion); border-color: #cbbca3; background: #f0ebde; }
+.comparison-modal { width: min(1100px, calc(100% - 50px)); }
+.comparison-content { padding: 43px 38px 28px; }
+.study-title { display: flex; align-items: center; gap: 16px; margin-top: 14px; }
+.study-title h2 { font-family: var(--serif); font-size: 29px; font-weight: 500; letter-spacing: 1px; }
+.study-title > span { font-size: 10px; padding: 5px 8px; color: #849173; background: #ecefe3; border-radius: 3px; white-space: nowrap; }
+.comparison-controls { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-top: 26px; padding: 13px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.comparison-select { display: flex; align-items: center; gap: 8px; color: #7d8e6a; min-width: 0; }
+.comparison-select select { background: none; border: 0; appearance: none; color: #62784f; font-size: 12px; padding: 7px 5px; cursor: pointer; width: 240px; max-width: 100%; }
+.difference-toggle { display: flex; align-items: center; gap: 7px; padding: 8px 11px; border: 1px solid #dce3ce; border-radius: 3px; font-size: 11px; color: #7d8f68; white-space: nowrap; }
+.difference-toggle:hover, .difference-toggle.active { background: #e9eede; color: #536b3d; }
+.difference-toggle:disabled { opacity: .45; background: none; }
+.comparison-intro { margin: 24px 0 23px; }
+.comparison-intro h3 { font-family: var(--serif); font-size: 20px; font-weight: 500; }
+.comparison-intro p { font-size: 12px; color: #78856b; line-height: 1.9; margin-top: 11px; max-width: 760px; }
+.comparison-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 15px; }
+.comparison-card { background: #f0f2e8; border: 1px solid #dfe5d3; border-radius: 4px; padding: 17px; display: flex; flex-direction: column; }
+.comparison-glyph { height: 147px; padding: 13px 20px 17px; color: #526445; }
+.comparison-character { display: flex; align-items: baseline; gap: 11px; border-top: 1px solid #dce3cf; padding-top: 15px; }
+.comparison-character strong { font-family: var(--serif); font-size: 30px; font-weight: 500; }
+.comparison-character > span { font-family: Georgia, serif; color: #879773; font-size: 14px; }
+.comparison-card > p { color: #758366; font-size: 12px; line-height: 1.9; margin: 11px 0 13px; }
+.comparison-card > .text-button { margin-top: auto; padding-top: 14px; font-size: 11px; }
+.comparison-caution { font-size: 9px; color: #a18a60; display: block; margin-bottom: 3px; }
+.study-footnote { font-size: 10px; line-height: 1.9; color: #8b967c; margin-top: 23px; }
+.custom-comparison { margin: 20px 0 24px; }
+.custom-comparison > p { font-size: 12px; color: #7c8c6b; line-height: 1.8; }
+.custom-comparison > div { display: flex; gap: 18px; margin-top: 14px; }
+.custom-comparison label { display: flex; align-items: center; gap: 10px; flex: 1; font-size: 11px; color: #7f8d70; min-width: 0; }
+.custom-comparison select { flex: 1; min-width: 0; font-size: 12px; padding: 8px; color: #5c7448; background: #f0f3e8; border: 1px solid #dbe3cc; border-radius: 3px; }
+.tracing-modal { width: min(980px, calc(100% - 50px)); }
+.tracing-content { display: grid; grid-template-columns: 38% 62%; }
+.trace-intro { padding: 47px 30px 30px; }
+.trace-intro > .eyebrow { font-size: 6px; letter-spacing: 1.5px; }
+.trace-intro h2 { font-family: var(--serif); font-size: 30px; font-weight: 500; line-height: 1.8; margin-top: 17px; letter-spacing: 1px; }
+.trace-intro > p:not(.study-footnote) { font-size: 12px; line-height: 2; color: #7b896b; margin-top: 19px; }
+.trace-glyph-select { display: flex; flex-direction: column; gap: 12px; margin-top: 26px; color: #7e8d6d; font-size: 11px; }
+.trace-glyph-select select { width: 100%; border: 1px solid #dbe3ce; border-radius: 3px; font-size: 12px; color: #61784c; background: #f0f3e7; padding: 10px; cursor: pointer; }
+.trace-observation { margin: 24px 0 10px; }
+.trace-note-label { font-size: 10px; color: #7a8c65; letter-spacing: 1px; }
+.trace-observation p { margin-top: 8px; color: #839276; font-size: 11px; line-height: 2; }
+.trace-intro > .text-button { font-size: 11px; }
+.trace-intro > .study-footnote { margin-top: 25px; font-size: 9px; }
+.trace-workspace { background: #ecefe3; padding: 45px 32px 24px; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+.trace-paper { width: 100%; max-width: 420px; border: 1px solid #dce2cf; background: #fcfcf5; border-radius: 3px; padding: 17px 19px 15px; box-shadow: 0 5px 20px #475c3310; }
+.trace-paper-label { display: block; font-size: 8px; letter-spacing: 1px; color: #99a48a; }
+.trace-canvas { display: block; width: 100%; height: auto; aspect-ratio: 1; touch-action: none; cursor: crosshair; user-select: none; margin: 10px 0 12px; }
+.trace-paper-caption { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 9px; color: #8b9a79; border-top: 1px solid #e6ebdb; padding-top: 14px; }
+.trace-paper-caption > span:first-child { font-family: var(--serif); font-size: 19px; color: #6a8054; }
+.trace-paper-caption i { font-family: Georgia, serif; font-size: 12px; font-style: normal; margin-left: 6px; color: #8a9b75; }
+.trace-toolbar { display: flex; align-items: center; justify-content: center; gap: 3px; margin-top: 19px; color: #7f906c; width: 100%; flex-wrap: wrap; }
+.trace-toolbar .icon-button { width: 30px; height: 31px; border-radius: 3px; }
+.trace-toolbar .icon-button:hover { background: #dfe7d2; }
+.trace-toolbar .icon-button:disabled { opacity: .3; background: none; }
+.trace-toolbar-divider { width: 1px; height: 18px; background: #d0dbc0; margin: 0 5px; }
+.trace-inks { display: flex; align-items: center; gap: 1px; }
+.trace-inks button { display: flex; align-items: center; justify-content: center; width: 27px; height: 28px; border-radius: 50%; border: 1px solid transparent; }
+.trace-inks button.active { border-color: #aab991; }
+.trace-inks button > span { display: flex; align-items: center; justify-content: center; width: 18px; height: 18px; border-radius: 50%; color: #f9fbef; }
+.trace-widths { display: flex; align-items: center; gap: 1px; margin-left: 5px; }
+.trace-widths button { font-size: 10px; width: 23px; height: 25px; border-radius: 3px; color: #8c9b78; }
+.trace-widths button.active { background: #dce5ce; color: #5e7649; }
+.trace-download { margin-top: 20px; min-width: 200px; padding: 12px 20px; font-size: 11px; }
+.trace-download > span { color: #b5c5a3; font-size: 8px; letter-spacing: 1px; }
+.trace-download:disabled, .trace-download:disabled:hover { background: #dce4cf; color: #8c9b76; transform: none; }
+.trace-error { color: var(--vermillion); font-size: 11px; margin-top: 11px; }
+@media (max-width: 1150px) {
+  .explore-room { gap: 12px; padding: 18px; }
+  .room-glyphs { width: 77px; gap: 1px; }
+  .room-glyphs .oracle-glyph { width: 25px; }
+  .room-copy strong { font-size: 14px; }
+  .room-copy small { font-size: 8px; }
+  .room-pen { width: 40px; }
+}
+@media (max-width: 800px) {
+  .comparison-content { padding: 40px 25px 25px; }
+  .study-title h2 { font-size: 26px; }
+  .comparison-grid { gap: 12px; }
+  .comparison-card { padding: 13px; }
+  .comparison-glyph { height: 135px; padding: 12px; }
+  .tracing-content { grid-template-columns: 40% 60%; }
+  .trace-intro { padding: 40px 23px 25px; }
+  .trace-intro h2 { font-size: 26px; }
+  .trace-workspace { padding: 43px 22px 25px; }
+}
+@media (max-width: 600px) {
+  .explore-rooms { grid-template-columns: 1fr; gap: 10px; margin-top: 13px; }
+  .explore-room { padding: 15px 17px; gap: 15px; min-height: 93px; }
+  .room-glyphs { width: 77px; height: 45px; }
+  .room-copy strong { margin-top: 5px; margin-bottom: 5px; font-size: 14px; }
+  .room-copy small { font-size: 8px; }
+  .room-pen { width: 77px; }
+  .explore-rooms + .gallery-section { margin-top: 28px; }
+  .detail-study-actions { gap: 8px; }
+  .detail-study-actions button { font-size: 10px; gap: 5px; }
+  .detail-study-actions button > svg:last-child { display: none; }
+  .comparison-modal, .tracing-modal { width: calc(100% - 22px); }
+  .comparison-content { padding: 39px 19px 23px; }
+  .comparison-content > .eyebrow { font-size: 6px; letter-spacing: 1px; }
+  .study-title { gap: 9px; align-items: center; }
+  .study-title h2 { font-size: 22px; letter-spacing: .3px; }
+  .study-title > span { font-size: 8px; padding: 4px 6px; }
+  .comparison-controls { gap: 8px; flex-wrap: wrap; margin-top: 21px; }
+  .comparison-select { flex: 1; gap: 4px; }
+  .comparison-select select { width: 100%; font-size: 11px; }
+  .comparison-select > svg:first-child { display: none; }
+  .difference-toggle { padding: 8px; font-size: 10px; gap: 4px; }
+  .difference-toggle > svg { width: 13px; }
+  .comparison-intro { margin-top: 21px; margin-bottom: 18px; }
+  .comparison-intro h3 { font-size: 18px; }
+  .comparison-intro p { font-size: 11px; line-height: 1.9; }
+  .comparison-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .comparison-card { padding: 12px; }
+  .comparison-glyph { height: 124px; padding: 9px 7px 17px; }
+  .comparison-character { padding-top: 12px; gap: 8px; }
+  .comparison-character strong { font-size: 26px; }
+  .comparison-character > span { font-size: 12px; }
+  .comparison-card > p { font-size: 11px; margin: 10px 0; }
+  .comparison-card > .text-button { font-size: 9px; gap: 3px; }
+  .comparison-caution { font-size: 8px; }
+  .comparison-content > .study-footnote { font-size: 9px; }
+  .custom-comparison > div { gap: 12px; }
+  .custom-comparison label { flex-direction: column; align-items: flex-start; gap: 7px; width: 50%; }
+  .custom-comparison select { width: 100%; font-size: 11px; }
+  .custom-comparison > p { font-size: 11px; }
+  .tracing-content { display: flex; flex-direction: column; }
+  .trace-intro { padding: 35px 24px 24px; }
+  .trace-intro h2 { font-size: 26px; line-height: 1.6; margin-top: 12px; }
+  .trace-intro h2 > br { display: none; }
+  .trace-intro > p:not(.study-footnote) { margin-top: 13px; font-size: 11px; }
+  .trace-glyph-select { margin-top: 17px; gap: 9px; }
+  .trace-glyph-select select { padding: 9px; }
+  .trace-observation { display: none; }
+  .trace-intro > .text-button { margin-top: 12px; font-size: 10px; }
+  .trace-intro > .study-footnote { font-size: 8px; margin-top: 9px; }
+  .trace-workspace { padding: 22px 20px 25px; }
+  .trace-paper { padding: 15px; }
+  .trace-paper-caption { font-size: 8px; }
+  .trace-toolbar { margin-top: 16px; gap: 2px; }
+  .trace-toolbar-divider { margin: 0 3px; }
+  .trace-download { font-size: 11px; margin-top: 17px; }
+}

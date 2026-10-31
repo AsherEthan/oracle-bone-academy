@@ -1,0 +1,13 @@
+{
+  "order": 100,
+  "code": "41.E5DA",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?kaiOrder=1556&ZiOrder=100",
+  "labels": [
+    "唐"
+  ],
+  "reference": "甲932<br />合24374",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%97%9A&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.E5DA",
+  "sha256": "9c71dbea1883c88771155cef736c57ad8ed696dd81ecbaa74cb5a64fdc891248",
+  "checkedAt": "2026-10-31"
+}

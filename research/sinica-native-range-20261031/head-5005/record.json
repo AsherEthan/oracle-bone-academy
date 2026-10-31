@@ -1,0 +1,13 @@
+{
+  "order": 5005,
+  "code": "45.F0CC",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5005",
+  "labels": [],
+  "reference": "續5.15.11 合16938",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%83%8C&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F0CC",
+  "sha256": "bc1e6b9a031014925c3a8ad7fa39c678c099b83b9923e37c62b7a398a1075a14",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5005"
+}

@@ -1,0 +1,15 @@
+{
+  "order": 5205,
+  "code": "45.F26E",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5205",
+  "labels": [
+    "方"
+  ],
+  "reference": "甲2364 合20625",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%89%AE&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F26E",
+  "sha256": "b78baca5eb97149587358ff92c27ee1968299013d285b976a76958eafc33e8f1",
+  "exampleCount": 5,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5205"
+}

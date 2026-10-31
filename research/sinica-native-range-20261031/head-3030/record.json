@@ -1,0 +1,15 @@
+{
+  "order": 3030,
+  "code": "45.E05A",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=3030",
+  "labels": [
+    "祼"
+  ],
+  "reference": "甲2813 合27148",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%81%9A&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.E05A",
+  "sha256": "63fb1fd3df82f460257613c7b30c8a13affd5401f5cba48dda55ff7e6c7c849c",
+  "exampleCount": 8,
+  "checkedAt": "2026-10-31",
+  "folder": "head-3030"
+}

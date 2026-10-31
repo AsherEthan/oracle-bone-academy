@@ -1,0 +1,713 @@
+{
+  "records": [
+    {
+      "order": 17,
+      "code": "41.E146",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=17",
+      "labels": [
+        "帝"
+      ],
+      "reference": "前4.17.5 合14360",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%85%86&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.E146",
+      "sha256": "9e67347f113e259a84ce3d745c14e436ba9819da6ef5a5ca1f920ccef18484cf",
+      "checkedAt": "2026-10-31",
+      "folder": "head-17"
+    },
+    {
+      "order": 97,
+      "code": "41.E589",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=97",
+      "labels": [
+        "又"
+      ],
+      "reference": "鐵7.4 合20836",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%96%89&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.E589",
+      "sha256": "2b8cf09eb683c6ba24051e78dabad5064cca0e796d291ab76bb25f1632498f39",
+      "checkedAt": "2026-10-31",
+      "folder": "head-97"
+    },
+    {
+      "order": 254,
+      "code": "41.EB1E",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=254",
+      "labels": [
+        "正"
+      ],
+      "reference": "甲1640 合28106",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%AC%9E&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.EB1E",
+      "sha256": "0025101e5623b4e23d317b56eae112024703945c8daa01216f5e63c23315d9d2",
+      "checkedAt": "2026-10-31",
+      "folder": "head-254"
+    },
+    {
+      "order": 278,
+      "code": "41.EC91",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=278",
+      "labels": [
+        "每"
+      ],
+      "reference": "甲573 合29155",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B2%91&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.EC91",
+      "sha256": "5f856485e60d2cb17125c0241bce50930f3c823b7f4de4a9b4e08768278b73d0",
+      "checkedAt": "2026-10-31",
+      "folder": "head-278"
+    },
+    {
+      "order": 324,
+      "code": "41.ED9C",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=324",
+      "labels": [],
+      "reference": "粹98 合3453",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B6%9C&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.ED9C",
+      "sha256": "6e529f4aa5d050acf75ccaffda81205a9c121e0b2870dcf6389b5eb8bdcdf35b",
+      "checkedAt": "2026-10-31",
+      "folder": "head-324"
+    },
+    {
+      "order": 350,
+      "code": "41.EE90",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=350",
+      "labels": [
+        "又"
+      ],
+      "reference": "甲478 合37470",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%BA%90&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.EE90",
+      "sha256": "0d562f64e3a222a5c64564ae4afb00ed3efded6d1129e5503fea0c99670aaa1b",
+      "checkedAt": "2026-10-31",
+      "folder": "head-350"
+    },
+    {
+      "order": 389,
+      "code": "41.F067",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=389",
+      "labels": [
+        "吏"
+      ],
+      "reference": "乙2766 合5489",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%81%A7&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.F067",
+      "sha256": "2f8bc55fff328de2d56b16d3759d4a892fe7ed53da71a1a9a69c096e08733a29",
+      "checkedAt": "2026-10-31",
+      "folder": "head-389"
+    },
+    {
+      "order": 461,
+      "code": "41.F42E",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=461",
+      "labels": [
+        "爻"
+      ],
+      "reference": "鐵100.2 合15665",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%90%AE&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.F42E",
+      "sha256": "b664c1d19bb2bdd8cdeaa922aff077a8a12e76f7b484412436d4d52e65a23a88",
+      "checkedAt": "2026-10-31",
+      "folder": "head-461"
+    },
+    {
+      "order": 475,
+      "code": "41.F513",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=475",
+      "labels": [
+        "眚"
+      ],
+      "reference": "甲5",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%94%93&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.F513",
+      "sha256": "45b13a932db799803e0e6024d135b791c90e2abb4d8565d0a82068c5487069c2",
+      "checkedAt": "2026-10-31",
+      "folder": "head-475"
+    },
+    {
+      "order": 532,
+      "code": "42.E131",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=532",
+      "labels": [
+        "茲"
+      ],
+      "reference": "鐵178.2 合11606",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%84%B1&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.E131",
+      "sha256": "5c72cf101f70e475135b182ec2c51ae368bcb8b6059ed312bec45a08e9934f3e",
+      "checkedAt": "2026-10-31",
+      "folder": "head-532"
+    },
+    {
+      "order": 599,
+      "code": "42.E455",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=599",
+      "labels": [
+        "乎"
+      ],
+      "reference": "甲621 合28350",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%91%95&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.E455",
+      "sha256": "b0b6f3ef42a93447bfb05fe4dcb1671e0b8b50079a975473d8f46e46fc9897bf",
+      "checkedAt": "2026-10-31",
+      "folder": "head-599"
+    },
+    {
+      "order": 670,
+      "code": "42.E7BD",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=670",
+      "labels": [],
+      "reference": "粹1303 合4489",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%9E%BD&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.E7BD",
+      "sha256": "87216827a25ed16e458922d041853167b4af977b678dcbe49aeec5c6fba842ff",
+      "checkedAt": "2026-10-31",
+      "folder": "head-670"
+    },
+    {
+      "order": 701,
+      "code": "42.E9C0",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=701",
+      "labels": [
+        "复"
+      ],
+      "reference": "乙184 合19755",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%A7%80&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.E9C0",
+      "sha256": "dc35a10704e5b63a0020a11e359d355c8178e1a1ef03b5d304656686d0a98d07",
+      "checkedAt": "2026-10-31",
+      "folder": "head-701"
+    },
+    {
+      "order": 710,
+      "code": "42.EA18",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=710",
+      "labels": [
+        "韋"
+      ],
+      "reference": "甲350 合3859",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%A8%98&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.EA18",
+      "sha256": "58042de077bd135aa82323e470c6caefd76c12a099f5e88d7cf95f5149fc25bd",
+      "checkedAt": "2026-10-31",
+      "folder": "head-710"
+    },
+    {
+      "order": 770,
+      "code": "42.EBC8",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=770",
+      "labels": [
+        ""
+      ],
+      "reference": "甲190",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%AF%88&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.EBC8",
+      "sha256": "c23880705c5d0ce85ae74cba1fc01dde3b2cc28d483a554a9ecb9f3bd9a5adbf",
+      "checkedAt": "2026-10-31",
+      "folder": "head-770"
+    },
+    {
+      "order": 803,
+      "code": "42.ED41",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=803",
+      "labels": [
+        ""
+      ],
+      "reference": "鐵68.4 合7875",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B5%81&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.ED41",
+      "sha256": "0d15212bd4aa0e2f93e226a1e379756cb9504fd44694927ccaf9b9ced6473141",
+      "checkedAt": "2026-10-31",
+      "folder": "head-803"
+    },
+    {
+      "order": 805,
+      "code": "42.ED43",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=805",
+      "labels": [
+        "卿"
+      ],
+      "reference": "前1.36.3 合23378",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B5%83&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.ED43",
+      "sha256": "458dec416230f4e609ed330090b219f5b7378d079f42a22dc6aadedf3a83782e",
+      "checkedAt": "2026-10-31",
+      "folder": "head-805"
+    },
+    {
+      "order": 811,
+      "code": "42.EDA7",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=811",
+      "labels": [
+        "每"
+      ],
+      "reference": "甲573 合29155",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B6%A7&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.EDA7",
+      "sha256": "c822bbf3e263a3771f643c5ad504122377f7d48df8e8c7582917a818381ed9d4",
+      "checkedAt": "2026-10-31",
+      "folder": "head-811"
+    },
+    {
+      "order": 864,
+      "code": "42.F054",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=864",
+      "labels": [
+        "鼎"
+      ],
+      "reference": "甲1180 合30288",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%81%94&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.F054",
+      "sha256": "4bdb0455df841d548c89a7e55a23ca971fd3e4edf98a3fb56cd1072176808fda",
+      "checkedAt": "2026-10-31",
+      "folder": "head-864"
+    },
+    {
+      "order": 870,
+      "code": "42.F0AF",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=870",
+      "labels": [
+        "彔"
+      ],
+      "reference": "甲598 合28800",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%82%AF&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.F0AF",
+      "sha256": "9c7848bf79b7f7c6b12da03d3ea1ade5e8d29d73a173fe32c6ef8ccc75a4e16d",
+      "checkedAt": "2026-10-31",
+      "folder": "head-870"
+    },
+    {
+      "order": 874,
+      "code": "42.F0E2",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=874",
+      "labels": [
+        "雈"
+      ],
+      "reference": "甲444 合33146",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%83%A2&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.F0E2",
+      "sha256": "06810793992ad7a1978cf63a44cb8081310abd2b04d4dd6081ad0388aa5bdc6e",
+      "checkedAt": "2026-10-31",
+      "folder": "head-874"
+    },
+    {
+      "order": 943,
+      "code": "42.F2B9",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=943",
+      "labels": [],
+      "reference": "鄴3下.40.4 合27164",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%8A%B9&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.F2B9",
+      "sha256": "9a7929ec288eb242aa381eb0fcd535c523cbb30575868e24f2de3dd4b3920b2e",
+      "checkedAt": "2026-10-31",
+      "folder": "head-943"
+    },
+    {
+      "order": 989,
+      "code": "42.F49B",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=989",
+      "labels": [
+        "白"
+      ],
+      "reference": "後2.4.11 合3397",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%92%9B&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.F49B",
+      "sha256": "509a04db8ea07a212bdaa0e014e152fc80bbbacbc0e2734a8b296d9683c90c79",
+      "checkedAt": "2026-10-31",
+      "folder": "head-989"
+    },
+    {
+      "order": 1003,
+      "code": "42.F504",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1003",
+      "labels": [
+        "吏"
+      ],
+      "reference": "甲68 合5557",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%94%84&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.F504",
+      "sha256": "21d5d8ac63e5ac5ee36e28062f5412a4ef4fdf817313e9e61c45368b2b1e76f8",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1003"
+    },
+    {
+      "order": 1010,
+      "code": "42.F54E",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1010",
+      "labels": [
+        "弔"
+      ],
+      "reference": "甲1870 合27738",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%95%8E&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.F54E",
+      "sha256": "a58c9dfa298146c327deafa06e1954cc18a9d466027ff0906e17d6582821a4fa",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1010"
+    },
+    {
+      "order": 1074,
+      "code": "43.E002",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1074",
+      "labels": [
+        "雚"
+      ],
+      "reference": "甲1850 合27115",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%80%82&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E002",
+      "sha256": "17a54318aa4291e3001c96277fb2882d9c2647cfc759c851e0c41b66fa046a8c",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1074"
+    },
+    {
+      "order": 1084,
+      "code": "43.E02D",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1084",
+      "labels": [
+        ""
+      ],
+      "reference": "甲870 合35260",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%80%AD&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E02D",
+      "sha256": "4f1bf7be8d371d9f5db91c00c740d0853f371a6e66ce563dcd83b1d83baddc40",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1084"
+    },
+    {
+      "order": 1090,
+      "code": "43.E09A",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1090",
+      "labels": [
+        "令"
+      ],
+      "reference": "甲597 合32870",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%82%9A&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E09A",
+      "sha256": "c4f5f8c3acdfc5b33faccbb1c9fb6877cc59ca2433d886951da17b250b17352a",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1090"
+    },
+    {
+      "order": 1095,
+      "code": "43.E0E8",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1095",
+      "labels": [
+        "即"
+      ],
+      "reference": "後2.20.18 合20091",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%83%A8&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E0E8",
+      "sha256": "54c6fbb7cc57db3286bdd2f915f2e6fc02a9c29091fe6142df34f5b4218bf2da",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1095"
+    },
+    {
+      "order": 1102,
+      "code": "43.E112",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1102",
+      "labels": [
+        ""
+      ],
+      "reference": "乙1277 合376",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%84%92&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E112",
+      "sha256": "c8e54dc0037e51e267d25a072d853f60d6cf0adaa489c1f325c1c81b8c1d16b5",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1102"
+    },
+    {
+      "order": 1103,
+      "code": "43.E113",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1103",
+      "labels": [
+        "卿"
+      ],
+      "reference": "前4.21.5 合5247",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%84%93&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E113",
+      "sha256": "fedfced30a7ff55a4f7d68e6f990802b76281ee535340afc6334568a235d8855",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1103"
+    },
+    {
+      "order": 1138,
+      "code": "43.E299",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1138",
+      "labels": [
+        ""
+      ],
+      "reference": "乙1968 合1772",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%8A%99&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E299",
+      "sha256": "033b501bd48f03f6dd6f73c6e9152efc4be4f173f899a00b3153e0324bca3cf1",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1138"
+    },
+    {
+      "order": 1187,
+      "code": "43.E4BE",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1187",
+      "labels": [
+        "隻"
+      ],
+      "reference": "甲90 合37588",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%92%BE&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E4BE",
+      "sha256": "3af5328f0ee2888c9b2fd03b3efcb39ea910e2267c3b82a6b3e8580a9808272c",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1187"
+    },
+    {
+      "order": 1189,
+      "code": "43.E4C0",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1189",
+      "labels": [
+        "狂"
+      ],
+      "reference": "後1.14.8 合29234",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%93%80&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E4C0",
+      "sha256": "b1013a9a8f47b219cdfe8cab63594b39b12e7e894f44fec03bde0f50603f0820",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1189"
+    },
+    {
+      "order": 1405,
+      "code": "43.EC48",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1405",
+      "labels": [
+        "專"
+      ],
+      "reference": "甲2341 合27759",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B1%88&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.EC48",
+      "sha256": "f731d8e3bd94b7176d318c861281d2850eb6b9a5d6ad682c4059b26a3c5aa47f",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1405"
+    },
+    {
+      "order": 1421,
+      "code": "43.ECF0",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1421",
+      "labels": [
+        "匕"
+      ],
+      "reference": "甲355 合27578",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B3%B0&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.ECF0",
+      "sha256": "71b0abbd8ab3a593a507cf4b9a83c630505831d715e1b5c091e1ba7979f47d38",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1421"
+    },
+    {
+      "order": 1440,
+      "code": "43.EDA8",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1440",
+      "labels": [
+        "又"
+      ],
+      "reference": "甲396 合34309",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B6%A8&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.EDA8",
+      "sha256": "20c30e641d5b6553e554eb074fcf2d9ce47bf0e3e6dfc964b6c3593b20ff4fc9",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1440"
+    },
+    {
+      "order": 1532,
+      "code": "43.F018",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1532",
+      "labels": [
+        "乍"
+      ],
+      "reference": "甲1013 合2298",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%80%98&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F018",
+      "sha256": "82e7f667dc508ceeda663a516711dff954552a53f76965aaa91ae517f76e3cc4",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1532"
+    },
+    {
+      "order": 1552,
+      "code": "43.F104",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1552",
+      "labels": [
+        "妥"
+      ],
+      "reference": "前5.19.1 合4912",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%84%84&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F104",
+      "sha256": "96f1f57077fa29ed183c3c11a360e4d3e7e652d362056a574bade823b02f8516",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1552"
+    },
+    {
+      "order": 1575,
+      "code": "43.F199",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1575",
+      "labels": [],
+      "reference": "甲3918 合27459",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%86%99&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F199",
+      "sha256": "de4a32122b367882ce8d3b2a7340c1686e14015d461eae0584529ccc6b5126ec",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1575"
+    },
+    {
+      "order": 1586,
+      "code": "43.F27A",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1586",
+      "labels": [
+        "凡"
+      ],
+      "reference": "甲134",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%89%BA&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F27A",
+      "sha256": "ce02d544f27bc97e952e0da8619e7d82621a554d98c16bcc936bd0af6a0a6e3c",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1586"
+    },
+    {
+      "order": 1590,
+      "code": "43.F2B7",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1590",
+      "labels": [
+        "才"
+      ],
+      "reference": "甲214 合20593",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%8A%B7&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F2B7",
+      "sha256": "2c7b3e8ce04ddabfab7c9c890a11c2a31ce10f609c4cb3a633b03b7cacc2e0b6",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1590"
+    },
+    {
+      "order": 1606,
+      "code": "43.F33E",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1606",
+      "labels": [
+        "黃"
+      ],
+      "reference": "甲1647 合29687",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%8C%BE&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F33E",
+      "sha256": "7dd0b10f87bfc0612a242fefb6827bc627345a9fc3819c8047c8ec9f6f32f0dd",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1606"
+    },
+    {
+      "order": 1614,
+      "code": "43.F3A8",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1614",
+      "labels": [
+        "易"
+      ],
+      "reference": "甲3364 合20263",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%8E%A8&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F3A8",
+      "sha256": "070baa888151ed4e5878205894bb3a71af4eec813ee47671b67b749b736337e1",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1614"
+    },
+    {
+      "order": 1618,
+      "code": "43.F3B6",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1618",
+      "labels": [
+        "且"
+      ],
+      "reference": "甲249 合21106",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%8E%B6&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F3B6",
+      "sha256": "58a36f09988ae0797dcff4454730762e582bb9a39f7ffc311847208740bd142f",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1618"
+    },
+    {
+      "order": 1631,
+      "code": "43.F458",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1631",
+      "labels": [
+        ""
+      ],
+      "reference": "甲252 合20270",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%91%98&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F458",
+      "sha256": "790e6e472c1c52f51b6434415c113edef924be3bad86b056d4ca9b967cbcdf21",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1631"
+    },
+    {
+      "order": 1645,
+      "code": "43.F4DC",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1645",
+      "labels": [
+        ""
+      ],
+      "reference": "乙2882 合5447",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%93%9C&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F4DC",
+      "sha256": "c8239dfadcbe70d0ff2d9ddd7949267d351044a39e683b59ec3f0b9e1c569565",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1645"
+    },
+    {
+      "order": 1673,
+      "code": "43.F5D3",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1673",
+      "labels": [
+        "獸"
+      ],
+      "reference": "鐵10.3 合6121",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%97%93&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F5D3",
+      "sha256": "094ce1dbd50b852943039021f78868a87b15785553e91071681eb545c9168fea",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1673"
+    },
+    {
+      "order": 1694,
+      "code": "43.F77B",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1694",
+      "labels": [
+        "子"
+      ],
+      "reference": "菁6.1 合137",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%9D%BB&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.F77B",
+      "sha256": "b9f487bc347d4650e9dade818aa747121a0fe528f60b0010d7b837d86ae869ac",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1694"
+    },
+    {
+      "order": 1757,
+      "code": "43.E50F",
+      "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=1757",
+      "labels": [
+        "山"
+      ],
+      "reference": "乙2463 合96",
+      "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%94%8F&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%89&size=200&style=regular&color=%23000000&resolution=96",
+      "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=43.E50F",
+      "sha256": "eb2ad7469c503360445b6b6f24d310affd021b478809b6b299688a3b1e98fc42",
+      "checkedAt": "2026-10-31",
+      "folder": "head-1757"
+    }
+  ],
+  "absent": [
+    236,
+    726,
+    906,
+    940,
+    1107,
+    1122,
+    1129,
+    1579,
+    1860,
+    1862
+  ],
+  "range": [
+    1,
+    1876
+  ],
+  "checkedAt": "2026-10-31"
+}

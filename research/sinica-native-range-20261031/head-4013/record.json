@@ -1,0 +1,15 @@
+{
+  "order": 4013,
+  "code": "45.E968",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4013",
+  "labels": [
+    "朿"
+  ],
+  "reference": "乙5384 合22077",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%A5%A8&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.E968",
+  "sha256": "fb6fceac4d1577f8d87975c83919f12f3f0ef32e965436ce425086c798ba8a2d",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4013"
+}

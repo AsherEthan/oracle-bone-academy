@@ -1,0 +1,13 @@
+{
+  "order": 3700,
+  "code": "45.E6D0",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=3700",
+  "labels": [],
+  "reference": "後2.14.16 合18304",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%9B%90&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.E6D0",
+  "sha256": "70b42b4ae14c759bb19c6b0c86cc19be1c6d0a7667775a7ac4a7bdeee65039c4",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-3700"
+}

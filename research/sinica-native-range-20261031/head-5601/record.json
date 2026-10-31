@@ -1,0 +1,15 @@
+{
+  "order": 5601,
+  "code": "45.F4B9",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5601",
+  "labels": [
+    "工"
+  ],
+  "reference": "京津2177 合4759",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%92%B9&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F4B9",
+  "sha256": "3a4a37d22cd5edf3820df9828b1254f4a5a0753543018bd33c7f1eff92489e7d",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5601"
+}

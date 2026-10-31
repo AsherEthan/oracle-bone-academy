@@ -1,0 +1,15 @@
+{
+  "order": 4219,
+  "code": "45.EAF5",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4219",
+  "labels": [
+    "賓"
+  ],
+  "reference": "京津4345 合34069",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%AB%B5&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.EAF5",
+  "sha256": "cbd9bf1de1cc85a038f965dace1bc54b5bf5d7f6f24b59accf1db0f24c8598b2",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4219"
+}

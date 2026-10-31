@@ -1,0 +1,15 @@
+{
+  "order": 4721,
+  "code": "45.EEAB",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4721",
+  "labels": [
+    "天"
+  ],
+  "reference": "乙9067 合20975",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%BA%AB&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.EEAB",
+  "sha256": "c1e8fa621260961be2c1a1c5c84faf4750c34c354939b70cb6c6ab3c6a075a6e",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4721"
+}

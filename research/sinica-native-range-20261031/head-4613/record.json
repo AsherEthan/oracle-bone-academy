@@ -1,0 +1,15 @@
+{
+  "order": 4613,
+  "code": "45.EDF8",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4613",
+  "labels": [
+    "為"
+  ],
+  "reference": "前5.30.5 合15189",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B7%B8&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.EDF8",
+  "sha256": "a1aaa2c1beba08e956d4b616d697dedd907ab1fea135f042944c32c1a6f33ccc",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4613"
+}

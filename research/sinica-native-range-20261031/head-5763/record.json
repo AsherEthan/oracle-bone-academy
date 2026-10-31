@@ -1,0 +1,15 @@
+{
+  "order": 5763,
+  "code": "45.F579",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5763",
+  "labels": [
+    "弋"
+  ],
+  "reference": "陳31 合10048",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%95%B9&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F579",
+  "sha256": "41358fdd1bb0fa026393d2b1276c7c185e9c58e879c6228370ed1dcabc10dce3",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5763"
+}

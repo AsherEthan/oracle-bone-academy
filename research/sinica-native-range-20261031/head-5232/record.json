@@ -1,0 +1,15 @@
+{
+  "order": 5232,
+  "code": "45.F297",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5232",
+  "labels": [
+    "鳥"
+  ],
+  "reference": "前4.17.5 合14360",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%8A%97&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F297",
+  "sha256": "ba1e8a346ac12f4dc72b55aa2159179a25c8e1fbfa9ba54acb2fafe15d3cb74f",
+  "exampleCount": 2,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5232"
+}

@@ -1,0 +1,15 @@
+{
+  "order": 3814,
+  "code": "45.E7A8",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=3814",
+  "labels": [
+    "亡"
+  ],
+  "reference": "前6.65.1 合21051",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%9E%A8&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.E7A8",
+  "sha256": "1955ae1fda9b5e12c68967f8dae68f2e152ee49ac30dc601700b9b443894c2cf",
+  "exampleCount": 5,
+  "checkedAt": "2026-10-31",
+  "folder": "head-3814"
+}

@@ -1,0 +1,15 @@
+{
+  "order": 3465,
+  "code": "45.E50A",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=3465",
+  "labels": [
+    "鬲"
+  ],
+  "reference": "佚318 合24280",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%94%8A&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.E50A",
+  "sha256": "f60141cba746ac3c06a067b852e4a7db92aee0d90169b08a45d129e08f400f8f",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-3465"
+}

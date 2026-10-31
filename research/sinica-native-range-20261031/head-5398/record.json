@@ -1,0 +1,15 @@
+{
+  "order": 5398,
+  "code": "45.F361",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5398",
+  "labels": [
+    "盧"
+  ],
+  "reference": "乙1062 合22439",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%8D%A1&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F361",
+  "sha256": "284ba6a483edfbb8938844c37a8948c4454594c25ee6bb22609118dc3a7dbf66",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5398"
+}

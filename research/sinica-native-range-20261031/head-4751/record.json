@@ -1,0 +1,15 @@
+{
+  "order": 4751,
+  "code": "45.EEE6",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4751",
+  "labels": [
+    "呈"
+  ],
+  "reference": "前2.15.1 合37532",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%BB%A6&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.EEE6",
+  "sha256": "8724f781e30807a5c17c4d90742539a114eacc071892f4505a64f7c0df790fc2",
+  "exampleCount": 14,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4751"
+}

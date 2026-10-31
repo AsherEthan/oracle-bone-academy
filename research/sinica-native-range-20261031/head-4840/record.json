@@ -1,0 +1,15 @@
+{
+  "order": 4840,
+  "code": "45.EF9A",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4840",
+  "labels": [
+    "危"
+  ],
+  "reference": "前2.19.5 合36901",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%BE%9A&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.EF9A",
+  "sha256": "481b86dc9743e676d2fa5e34dc0c3b907122b56512be40c0017fc6eeba72546b",
+  "exampleCount": 3,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4840"
+}

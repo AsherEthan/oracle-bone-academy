@@ -1,0 +1,15 @@
+{
+  "order": 5299,
+  "code": "45.F2E8",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5299",
+  "labels": [
+    "孽"
+  ],
+  "reference": "河778 合17339",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%8B%A8&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F2E8",
+  "sha256": "b84dd966ce4c4d3b8869787c002f2ac6dffeab401d07466c677b32998c3dccc5",
+  "exampleCount": 6,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5299"
+}

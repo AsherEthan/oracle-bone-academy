@@ -1,0 +1,15 @@
+{
+  "order": 5089,
+  "code": "45.F18A",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5089",
+  "labels": [
+    "周"
+  ],
+  "reference": "後2.15.2 合30793",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%86%8A&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F18A",
+  "sha256": "b38d9bf53cf09bb03eeb5b0f8d2f4c347fc85ac644b994ff7f9d6e4c89b690d6",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5089"
+}

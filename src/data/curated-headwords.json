@@ -1,0 +1,62 @@
+[
+  {
+    "char": "止",
+    "order": 142,
+    "sourceCode": "41.E74A"
+  },
+  {
+    "char": "日",
+    "order": 806,
+    "sourceCode": "42.ED48"
+  },
+  {
+    "char": "月",
+    "order": 837,
+    "sourceCode": "42.EEB0"
+  },
+  {
+    "char": "水",
+    "order": 1265,
+    "sourceCode": "43.E7BE"
+  },
+  {
+    "char": "火",
+    "order": 1197,
+    "sourceCode": "43.E513"
+  },
+  {
+    "char": "雨",
+    "order": 1356,
+    "sourceCode": "43.EA46"
+  },
+  {
+    "char": "人",
+    "order": 986,
+    "sourceCode": "42.F47D"
+  },
+  {
+    "char": "子",
+    "order": 1694,
+    "sourceCode": "44.E079"
+  },
+  {
+    "char": "目",
+    "order": 463,
+    "sourceCode": "41.F455"
+  },
+  {
+    "char": "口",
+    "order": 86,
+    "sourceCode": "41.E513"
+  },
+  {
+    "char": "牛",
+    "order": 77,
+    "sourceCode": "41.E431"
+  },
+  {
+    "char": "鱼",
+    "order": 1374,
+    "sourceCode": "43.EAFC"
+  }
+]

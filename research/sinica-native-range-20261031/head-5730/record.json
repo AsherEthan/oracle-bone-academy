@@ -1,0 +1,13 @@
+{
+  "order": 5730,
+  "code": "45.F555",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5730",
+  "labels": [],
+  "reference": "粹142 合27124",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%95%95&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F555",
+  "sha256": "c8ecf09f55145c6d6a11c5d34c5856abfb98f59db9ee1559e6ffa1bf6fc6ab04",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5730"
+}

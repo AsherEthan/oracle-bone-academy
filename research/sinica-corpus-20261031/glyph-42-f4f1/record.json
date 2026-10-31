@@ -1,0 +1,13 @@
+{
+  "order": 999,
+  "code": "42.F4F1",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?kaiOrder=163&ZiOrder=999",
+  "labels": [
+    "乍"
+  ],
+  "reference": "鐵81.3<br />合6923",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%93%B1&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.F4F1",
+  "sha256": "06d37d2c1e5430eba2e699daebfed55c9b25707ea66cb2729c3f175ea04c77fe",
+  "checkedAt": "2026-10-31"
+}

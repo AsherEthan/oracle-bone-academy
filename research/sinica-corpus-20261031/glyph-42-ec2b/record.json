@@ -1,0 +1,13 @@
+{
+  "order": 775,
+  "code": "42.EC2B",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?kaiOrder=182&ZiOrder=775",
+  "labels": [
+    "出"
+  ],
+  "reference": "後1.29.10<br />合6689",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%B0%AB&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%8C&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=42.EC2B",
+  "sha256": "54b23838e1387449f59a7813e58f4c37e5e35c7c600db149e105182c4c75b14a",
+  "checkedAt": "2026-10-31"
+}

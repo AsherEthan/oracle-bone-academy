@@ -1,0 +1,15 @@
+{
+  "order": 5209,
+  "code": "45.F27B",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5209",
+  "labels": [
+    "方"
+  ],
+  "reference": "坊間1.48",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%89%BB&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F27B",
+  "sha256": "0a9eeac9276ac1d2493631a843a0e1e7092a6f9aec890c1287a1c8d2f6a0ccb6",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5209"
+}

@@ -1,0 +1,15 @@
+{
+  "order": 5046,
+  "code": "45.F125",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5046",
+  "labels": [
+    "異"
+  ],
+  "reference": "後2.39.2 合30416",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%84%A5&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F125",
+  "sha256": "c1d1cd2cc4708a451014d6bc291452e368dea4644468cd9efb30ebe82df2c75a",
+  "exampleCount": 2,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5046"
+}

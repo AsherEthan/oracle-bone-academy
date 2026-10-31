@@ -1,0 +1,15 @@
+{
+  "order": 5940,
+  "code": "45.F636",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=5940",
+  "labels": [
+    "東"
+  ],
+  "reference": "京都3137 合20069",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EF%98%B6&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.F636",
+  "sha256": "878bae6d146e9aecb8680e30a6b83db3d21efe9c2b1da1ff33065a900c7a27ee",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-5940"
+}

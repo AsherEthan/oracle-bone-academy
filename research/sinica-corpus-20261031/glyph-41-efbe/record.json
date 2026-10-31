@@ -1,0 +1,13 @@
+{
+  "order": 365,
+  "code": "41.EFBE",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?kaiOrder=124&ZiOrder=365",
+  "labels": [
+    "弔"
+  ],
+  "reference": "前1.39.3<br />合4306",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%BE%BE&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%B8%80&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=41.EFBE",
+  "sha256": "47af1c83f21cdcaac4faf7e16b2055bbcfb39f9cdfce2034915035e607456a83",
+  "checkedAt": "2026-10-31"
+}

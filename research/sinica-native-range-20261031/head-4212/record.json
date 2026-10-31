@@ -1,0 +1,15 @@
+{
+  "order": 4212,
+  "code": "45.EAEE",
+  "catalogueUrl": "https://xiaoxue.iis.sinica.edu.tw/jiaguwen?ZiOrder=4212",
+  "labels": [
+    "余"
+  ],
+  "reference": "乙1796",
+  "originalUrl": "https://xiaoxue.iis.sinica.edu.tw/ImageText2/ShowImage.ashx?text=%EE%AB%AE&font=%E4%B8%AD%E7%A0%94%E9%99%A2%E7%94%B2%E9%AA%A8%E6%96%87%E9%87%8D%E6%96%87%E4%BA%94&size=200&style=regular&color=%23000000&resolution=96",
+  "sourceRecordUrl": "https://xiaoxue.iis.sinica.edu.tw/char?fontcode=45.EAEE",
+  "sha256": "a4a9fe36a884c571396b7f53973c5ace812e709022e011c9bbdba41923c1ce77",
+  "exampleCount": 1,
+  "checkedAt": "2026-10-31",
+  "folder": "head-4212"
+}
