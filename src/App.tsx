@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { ArrowLeft, ArrowRight, ArrowUpRight, Bookmark, Check, Info, Search, Shuffle, X } from 'lucide-react'
-import { glyphs, matchesSearch, referenceLinks, type GlyphEntry } from './data/glyphs'
+import { ArrowLeft, ArrowRight, ArrowUpRight, Bookmark, Check, Grid2X2, Info, Search, Shuffle, X } from 'lucide-react'
+import { glyphs, referenceLinks, type GlyphEntry } from './data/glyphs'
+import { findGlyphs, imageShape, searchMatch, shapeFilters, type ShapeFilter } from './data/finding'
 import { galleryGlyphs, galleryStats, glyphKey, glyphLabel } from './data/catalogue'
 import { canDisplaySource } from './data/provenance'
 import { Glyph } from './components/Glyph'
@@ -17,11 +18,11 @@ const browseFilters = [
 ] as const
 type BrowseFilter = typeof browseFilters[number]['id']
 
-function DetailView({ entry, saved, onSave, onClose, onMove }: {
-  entry: GlyphEntry; saved: boolean; onSave: () => void; onClose: () => void; onMove: (direction: number) => void
+function DetailView({ entry, initialSourceCode, saved, onSave, onClose, onMove }: {
+  entry: GlyphEntry; initialSourceCode?: string; saved: boolean; onSave: () => void; onClose: () => void; onMove: (direction: number) => void
 }) {
-  const [exampleIndex, setExampleIndex] = useState(0)
   const examples = entry.examples ?? (entry.source ? [entry.source] : [])
+  const [exampleIndex, setExampleIndex] = useState(() => Math.max(0, examples.findIndex(source => source.sourceCode === initialSourceCode)))
   const source = examples[exampleIndex]
   if (!canDisplaySource(source)) return null
   const label = glyphLabel(entry)
@@ -91,6 +92,9 @@ export default function App() {
   const [filter, setFilter] = useState<BrowseFilter>('all')
   const [pageNumber, setPageNumber] = useState(1)
   const [query, setQuery] = useState('')
+  const [findingMode, setFindingMode] = useState<'text' | 'visual'>('text')
+  const [shape, setShape] = useState<ShapeFilter>('all')
+  const [selectedSource, setSelectedSource] = useState<string>()
   const [collection, setCollection] = useState<string[]>(loadCollection)
   const [selected, setSelected] = useState<GlyphEntry | null>(null)
   const [about, setAbout] = useState(false)
@@ -99,17 +103,21 @@ export default function App() {
   const galleryRef = useRef<HTMLElement>(null)
   const savedSet = useMemo(() => new Set(collection), [collection])
   const pool = useMemo(() => page === 'collection' ? galleryGlyphs.filter(entry => savedSet.has(glyphKey(entry))) : galleryGlyphs, [page, savedSet])
-  const filtered = useMemo(() => pool.filter(entry => (filter === 'all' || (filter === 'references' ? !!entry.reading : !entry.catalogueLabels?.length)) && matchesSearch(entry, query)), [pool, filter, query])
+  const filtered = useMemo(() => findGlyphs(pool.filter(entry =>
+    (filter === 'all' || (filter === 'references' ? !!entry.reading : !entry.catalogueLabels?.length)) &&
+    (findingMode !== 'visual' || shape === 'all' || imageShape(entry) === shape)
+  ), query), [pool, filter, query, findingMode, shape])
   const previousBookmarks = useMemo(() => glyphs.filter(entry => savedSet.has(entry.char) && !canDisplaySource(entry.source)), [savedSet])
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))
+  const pageSize = findingMode === 'visual' ? 96 : PAGE_SIZE
+  const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize))
   const currentPage = Math.min(pageNumber, totalPages)
-  const visible = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
+  const visible = filtered.slice((currentPage - 1) * pageSize, currentPage * pageSize)
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
       const target = event.target as HTMLElement
       if (event.key === '/' && !selected && !about && !['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName)) {
-        event.preventDefault(); searchRef.current?.focus()
+        event.preventDefault(); setFindingMode('text'); setShape('all'); requestAnimationFrame(() => searchRef.current?.focus())
       }
     }
     window.addEventListener('keydown', onKeyDown)
@@ -128,9 +136,11 @@ export default function App() {
     return () => window.removeEventListener('storage', syncCollection)
   }, [])
 
-  function navigate(nextPage: 'gallery' | 'collection') { setPage(nextPage); setFilter('all'); setQuery(''); setPageNumber(1) }
+  function navigate(nextPage: 'gallery' | 'collection') { setPage(nextPage); setFilter('all'); setQuery(''); setPageNumber(1); setFindingMode('text'); setShape('all') }
   function updateQuery(value: string) { setQuery(value); setPageNumber(1) }
-  function clearFilters() { updateQuery(''); setFilter('all'); searchRef.current?.focus() }
+  function clearFilters() { updateQuery(''); setFilter('all'); setShape('all'); searchRef.current?.focus() }
+  function chooseFindingMode(mode: 'text' | 'visual') { if (mode === findingMode) return; setFindingMode(mode); setShape('all'); setFilter('all'); updateQuery('') }
+  function openEntry(entry: GlyphEntry) { setSelectedSource(searchMatch(entry, query)?.sourceCode); setSelected(entry) }
   function toggleSave(key: string, label: string) {
     const wasSaved = savedSet.has(key)
     const next = wasSaved ? collection.filter(item => item !== key) : [...collection, key]
@@ -142,11 +152,12 @@ export default function App() {
     if (!selected) return
     const nextPool = filtered.includes(selected) ? filtered : galleryGlyphs
     const index = nextPool.indexOf(selected)
+    setSelectedSource(undefined)
     setSelected(nextPool[(index + direction + nextPool.length) % nextPool.length])
   }
   function randomGlyph() {
     const candidates = filtered.filter(entry => entry !== selected)
-    if (candidates.length) setSelected(candidates[Math.floor(Math.random() * candidates.length)])
+    if (candidates.length) openEntry(candidates[Math.floor(Math.random() * candidates.length)])
   }
   function changePage(number: number) {
     setPageNumber(number)
@@ -161,26 +172,39 @@ export default function App() {
         <nav aria-label="主导航"><button className={page === 'gallery' ? 'active' : ''} aria-current={page === 'gallery' ? 'page' : undefined} onClick={() => navigate('gallery')}>逛字馆</button><button className={page === 'collection' ? 'active' : ''} aria-current={page === 'collection' ? 'page' : undefined} onClick={() => navigate('collection')}><Bookmark size={15} />拾字簿{collection.length > 0 && <small>{collection.length}</small>}</button><button className="icon-button" aria-label="关于字在" onClick={() => setAbout(true)}><Info size={17} /></button></nav>
       </div></header>
       <main className="simple-main">
-        <section className="gallery-intro" aria-labelledby="gallery-heading"><div><span className="eyebrow">{page === 'gallery' ? '甲 骨 文 小 展 馆' : 'MY LITTLE COLLECTION'}</span><h1 id="gallery-heading">{page === 'gallery' ? '先看字形，再找线索。' : '喜欢的字，留在这里。'}</h1><p>{page === 'gallery' ? '字例、著录与相关资料，放在一起看。' : '每一次收藏，都是一次新的发现。'}</p></div>
-          <div className="search-box"><Search size={17} /><input ref={searchRef} value={query} onChange={event => updateQuery(event.target.value)} placeholder="检索标签、拼音或来源编号" aria-label="搜索标签、拼音或编号" />{query ? <button className="clear-search" onClick={() => { updateQuery(''); searchRef.current?.focus() }} aria-label="清空搜索"><X size={15} /></button> : <kbd>/</kbd>}</div>
+        <section className="gallery-intro" aria-labelledby="gallery-heading"><div><span className="eyebrow">{page === 'gallery' ? '甲 骨 文 小 展 馆' : 'MY LITTLE COLLECTION'}</span><h1 id="gallery-heading">{page === 'gallery' ? '先看字形，再找线索。' : '喜欢的字，留在这里。'}</h1><p>{page === 'gallery' ? '字例、著录与相关资料，放在一起看。' : '每一次收藏，都是一次新的发现。'}</p></div></section>
+        <section className="finding-tools" aria-label="寻找字形">
+          <div className="finding-modes" role="group" aria-label="选择寻找方式">
+            <button aria-pressed={findingMode === 'text'} onClick={() => chooseFindingMode('text')}><Search size={16} />输入线索</button>
+            <button aria-pressed={findingMode === 'visual'} onClick={() => chooseFindingMode('visual')}><Grid2X2 size={16} />按图找字<span>不知道叫什么，也能逛</span></button>
+          </div>
+          {findingMode === 'text' ? <div className="finding-text">
+            <div className="search-box"><Search size={18} /><input ref={searchRef} value={query} onChange={event => updateQuery(event.target.value)} placeholder="如：水、shui、合34165、45.E538" aria-label="搜索标签、拼音或编号" aria-describedby="search-help" />{query ? <button className="clear-search" onClick={() => { updateQuery(''); searchRef.current?.focus() }} aria-label="清空搜索"><X size={16} /></button> : <kbd>/</kbd>}</div>
+            <div className="search-starts"><span id="search-help">汉字查目录标签，也可查已有拼音、著录或编号</span><div role="group" aria-label="试试这些目录标签">{['日', '水', '人', '木', '魚', '止'].map(label => <button key={label} onClick={() => updateQuery(label)} aria-label={`查目录标签${label}`}>{label}</button>)}</div></div>
+          </div> : <div className="finding-visual">
+            <div className="shape-filters" role="group" aria-label="按展图轮廓筛选">{shapeFilters.map(item => <button key={item.id} aria-pressed={shape === item.id} onClick={() => { setShape(item.id); setPageNumber(1) }}>{item.id !== 'all' && <span className={`shape-mark shape-${item.id}`} aria-hidden="true" />}{item.name}</button>)}</div>
+            <p>按当前展图的外轮廓粗筛，点图放大；同组其他字例的轮廓可能不同。</p>
+          </div>}
         </section>
         <section ref={galleryRef} tabIndex={-1} className="gallery-section" aria-label={page === 'gallery' ? '字形展览' : '收藏的字'}>
           <div className="browse-toolbar"><div className="browse-categories" role="group" aria-label="筛选字库">{browseFilters.map(item => <button key={item.id} className={filter === item.id ? 'active' : ''} aria-pressed={filter === item.id} onClick={() => { setFilter(item.id); setPageNumber(1) }}>{item.name}</button>)}</div><button className="random-button" aria-label="随遇一字" disabled={!filtered.length} onClick={randomGlyph}><Shuffle size={15} /><span>随遇一字</span></button></div>
-          <div className="browse-result-line" role="status"><span>{filtered.length.toLocaleString()} 个字头{query && ' · 搜索结果'}</span>{filtered.length > PAGE_SIZE && <span>第 {currentPage} / {totalPages} 页</span>}</div>
-          {query && <p className="search-material-note">搜索匹配目录标签、现代检索词和参考资料，不表示古今字等同。</p>}
-          {visible.length > 0 ? <div className="glyph-grid">{visible.map((entry, index) => {
+          <div className="browse-result-line" role="status"><span>{filtered.length.toLocaleString()} 个字头{query && ' · 搜索结果'}</span>{filtered.length > pageSize && <span>第 {currentPage} / {totalPages} 页</span>}</div>
+          {query && <p className="search-material-note">优先显示标签与编号的精确匹配；搜索关联不表示古今字等同。{(filter !== 'all' || page === 'collection') && <button onClick={() => { setPage('gallery'); setFilter('all'); setShape('all'); setPageNumber(1) }}>在全部字库中找</button>}</p>}
+          {visible.length > 0 ? <div className={`glyph-grid ${findingMode === 'visual' ? 'visual-grid' : ''}`}>{visible.map((entry, index) => {
             const label = glyphLabel(entry), key = glyphKey(entry)
+            const match = searchMatch(entry, query)
+            const matchedSource = match?.sourceCode ? entry.examples?.find(source => source.sourceCode === match.sourceCode) : undefined
             return <article className="glyph-card" key={key} style={{ '--card-index': Math.min(index, 9) } as React.CSSProperties}>
-              <button className="card-open" aria-label={`看看${label}`} onClick={() => setSelected(entry)}><div className="card-glyph-area"><Glyph entry={entry} decorative /></div><div className="card-info"><span className="card-character numbered-character">{label}</span><ArrowUpRight className="card-arrow" size={17} /></div><p className="card-caption">{entry.catalogueLabels?.length ? `目录标签 · ${entry.catalogueLabels.join('、')}` : '目录未标汉字'}</p></button>
+              <button className="card-open" aria-label={`看看${label}`} onClick={() => openEntry(entry)}><div className="card-glyph-area"><Glyph entry={matchedSource ? { ...entry, source: matchedSource } : entry} decorative /></div><div className="card-info"><span className="card-character numbered-character">{label}</span><ArrowUpRight className="card-arrow" size={17} /></div><p className="card-caption">{entry.catalogueLabels?.length ? `目录标签 · ${entry.catalogueLabels.join('、')}` : '目录未标汉字'}</p>{match && <p className="search-match">{match.reason}</p>}</button>
               <button className={`card-bookmark ${savedSet.has(key) ? 'is-saved' : ''}`} onClick={() => toggleSave(key, label)} aria-label={savedSet.has(key) ? `取消收藏${label}` : `收藏${label}`} aria-pressed={savedSet.has(key)}><Bookmark size={16} fill={savedSet.has(key) ? 'currentColor' : 'none'} /></button>
             </article>
-          })}</div> : <div className="empty-state">{page === 'collection' && !query && filter === 'all' ? <><Bookmark size={30} strokeWidth={1} /><h2>{previousBookmarks.length ? '这些收藏的字，暂时还看不到字形。' : '还没有拾起的字。'}</h2><p>{previousBookmarks.length ? '以前的收藏仍为你保留，可以先去看看其他字。' : '点亮字卡上的收藏符号，下次就能在这里找到它。'}</p><button className="primary-button" onClick={() => navigate('gallery')}>去逛逛 <ArrowRight size={15} /></button></> : <><Search size={30} strokeWidth={1} /><h2>还没找到这个字。</h2><p>换个字或编号试试。这里还没有覆盖所有甲骨文字。</p><button className="text-button" onClick={clearFilters}>清除筛选 <ArrowRight size={15} /></button></>}</div>}
+          })}</div> : <div className="empty-state">{page === 'collection' && !query && filter === 'all' && pool.length === 0 ? <><Bookmark size={30} strokeWidth={1} /><h2>{previousBookmarks.length ? '这些收藏的字，暂时还看不到字形。' : '还没有拾起的字。'}</h2><p>{previousBookmarks.length ? '以前的收藏仍为你保留，可以先去看看其他字。' : '点亮字卡上的收藏符号，下次就能在这里找到它。'}</p><button className="primary-button" onClick={() => navigate('gallery')}>去逛逛 <ArrowRight size={15} /></button></> : <><Search size={30} strokeWidth={1} /><h2>还没找到这个字。</h2><p>没有匹配结果不代表没有这种字形。可以换个线索，或直接看图。</p><div className="empty-search-actions"><button className="text-button" onClick={clearFilters}>清除筛选 <ArrowRight size={15} /></button>{findingMode === 'text' && <button className="text-button" onClick={() => chooseFindingMode('visual')}>按图找字 <Grid2X2 size={15} /></button>}</div></>}</div>}
           {totalPages > 1 && <nav className="catalogue-pagination" aria-label="字库分页"><button onClick={() => changePage(currentPage - 1)} disabled={currentPage === 1} aria-label="上一页"><ArrowLeft size={15} />上一页</button><label><span>第</span><select aria-label="选择字库页码" value={currentPage} onChange={event => changePage(Number(event.target.value))}>{Array.from({ length: totalPages }, (_, index) => <option key={index + 1} value={index + 1}>{index + 1}</option>)}</select><span>/ {totalPages} 页</span></label><button onClick={() => changePage(currentPage + 1)} disabled={currentPage === totalPages} aria-label="下一页">下一页<ArrowRight size={15} /></button></nav>}
           {page === 'collection' && previousBookmarks.length > 0 && <details className="previous-bookmarks"><summary>以前收藏的 {previousBookmarks.length} 个字，暂未收录字形</summary><p>收藏仍为你保留，不用空白字卡占据展览。</p><div>{previousBookmarks.map(entry => <button key={entry.char} onClick={() => toggleSave(entry.char, entry.char)} aria-label={`取消收藏${entry.char}`}>{entry.char}<X size={12} /></button>)}</div></details>}
         </section>
         <footer className="main-footer"><span><span className="footer-brand">字在</span>看见字形，保留疑问。</span><div><span>字形为字库图，非甲骨原拓</span><button onClick={() => setAbout(true)}>收录范围与出处 <ArrowUpRight size={12} /></button></div></footer>
       </main>
-      {selected && <DetailView key={glyphKey(selected)} entry={selected} saved={savedSet.has(glyphKey(selected))} onSave={() => toggleSave(glyphKey(selected), glyphLabel(selected))} onClose={() => setSelected(null)} onMove={moveGlyph} />}
+      {selected && <DetailView key={`${glyphKey(selected)}-${selectedSource ?? ''}`} entry={selected} initialSourceCode={selectedSource} saved={savedSet.has(glyphKey(selected))} onSave={() => toggleSave(glyphKey(selected), glyphLabel(selected))} onClose={() => setSelected(null)} onMove={moveGlyph} />}
       {about && <About onClose={() => setAbout(false)} />}
       {toast && <div className="toast" role="status"><Check size={16} />{toast}</div>}
     </div>

@@ -114,13 +114,58 @@
 .reference-materials > p { margin-top: 9px; }
 .reference-materials > .citation-boundary { font-size: 11px; color: #88775c; }
 .card-caption { overflow-wrap: anywhere; }
+.finding-tools { margin: -7px 0 28px; padding: 21px 24px 18px; border: 1px solid var(--line); border-radius: 6px; background: #fdfcf9; }
+.finding-modes { display: flex; gap: 25px; margin-bottom: 18px; }
+.finding-modes button { display: flex; align-items: center; gap: 8px; padding: 0 0 9px; border-bottom: 2px solid transparent; color: #858d79; font-size: 14px; }
+.finding-modes button[aria-pressed="true"] { color: #3e5839; border-color: #829471; }
+.finding-modes button > span { font-size: 11px; color: #949985; }
+.finding-text .search-box { width: 100%; height: 51px; padding: 0 15px; margin: 0; }
+.finding-text .search-box input { font-size: 15px; }
+.finding-text .search-box input::placeholder { font-size: 13px; }
+.search-starts { display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 9px 18px; margin-top: 12px; }
+.search-starts > span, .finding-visual > p { color: #8b927d; font-size: 11px; line-height: 1.9; }
+.search-starts > div { display: flex; gap: 5px; }
+.search-starts button { font-family: var(--serif); font-size: 17px; width: 34px; height: 33px; border-radius: 3px; color: #627951; background: #eff1e7; }
+.search-starts button:hover { background: #e2e8d7; }
+.shape-filters { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 12px; }
+.shape-filters button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 40px; padding: 9px 15px; border: 1px solid #e1e5d7; border-radius: 4px; font-size: 12px; color: #7c8870; }
+.shape-filters button[aria-pressed="true"] { color: #405b37; border-color: #8b9c78; background: #eef2e5; }
+.shape-mark { display: inline-block; border: 1px solid currentColor; border-radius: 1px; }
+.shape-tall { width: 9px; height: 18px; }
+.shape-wide { width: 21px; height: 9px; }
+.shape-square { width: 15px; height: 15px; }
+.search-match { font-size: 10px; line-height: 1.8; padding: 0 20px 16px; color: #697f55; overflow-wrap: anywhere; }
+.search-material-note > button { color: #526f41; text-decoration: underline; text-underline-offset: 3px; margin-left: 12px; }
+.empty-search-actions { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; justify-content: center; }
+.simple-main .glyph-grid.visual-grid { grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 12px; }
+.simple-main .visual-grid .card-glyph-area { height: 118px; padding: 24px 17px 8px; }
+.visual-grid .card-glyph-area .source-glyph { max-height: 85px; max-width: 95px; }
+.simple-main .visual-grid .card-info { margin: 0 9px; padding: 7px 0 9px; gap: 0; }
+.simple-main .visual-grid .card-character.numbered-character { font-size: 12px; }
+.visual-grid .card-caption, .visual-grid .card-arrow { display: none; }
+.simple-main .visual-grid .card-bookmark { width: 32px; height: 32px; top: 0; right: 0; }
 @media (max-width: 900px) {
+  .simple-main .glyph-grid.visual-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
   .simple-main .glyph-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }
   .gallery-intro { gap: 20px; }
   .gallery-intro .search-box { width: 230px; }
   .gallery-intro h1 { font-size: 29px; }
 }
 @media (max-width: 600px) {
+  .finding-tools { padding: 17px 15px 15px; margin: -2px 0 23px; }
+  .finding-modes { gap: 21px; }
+  .finding-modes button { font-size: 13px; }
+  .finding-modes button > span { display: none; }
+  .finding-text .search-box { height: 48px; padding: 0 11px; }
+  .finding-text .search-box input { font-size: 16px; }
+  .finding-text .search-box input::placeholder { font-size: 11px; }
+  .search-starts { gap: 10px; }
+  .search-starts > span { font-size: 10px; }
+  .shape-filters { gap: 6px; }
+  .shape-filters button { font-size: 11px; padding: 8px 10px; gap: 7px; }
+  .simple-main .glyph-grid.visual-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
+  .simple-main .visual-grid .card-glyph-area { height: 108px; padding: 25px 13px 7px; }
+  .simple-main .visual-grid .card-character.numbered-character { font-size: 11px; }
   .simple-header-inner { min-height: 67px; padding: 0 20px; gap: 12px; }
   .simple-brand { font-size: 24px; gap: 9px; letter-spacing: 3px; }
   .brand-seal { font-size: 23px; width: 29px; height: 33px; }
